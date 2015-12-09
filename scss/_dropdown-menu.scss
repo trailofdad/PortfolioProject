@@ -1,0 +1,21 @@
+/*Dropdown Menu*/
+
+nav#dropdown {
+  color: #222222;
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.3s ease-in-out,
+  opacity 0.3s ease-in-out;
+  *zoom: 1;
+}
+nav#dropdown.open {
+  height: auto;
+  transition: height 0.3s ease-in-out,
+  opacity 0.3s ease-in-out;
+  opacity: 1;
+}
+
+#menu {
+  text-decoration: none;
+}

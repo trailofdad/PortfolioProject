@@ -1,0 +1,195 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,400italic,700italic);
+/*Dropdown Menu*/
+nav#dropdown {
+  color: #222222;
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  *zoom: 1; }
+
+nav#dropdown.open {
+  height: auto;
+  transition: height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  opacity: 1; }
+
+#menu {
+  text-decoration: none; }
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+  outline: 0; }
+
+/*
+ * Base structure
+ */
+/*html,*/
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0; }
+
+body {
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: dimgrey;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+
+body {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+/* Extra styles for vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  -webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.5); }
+
+.masthead-brand__menu {
+  text-align: center;
+  padding-right: 20px; }
+
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top; }
+
+.cover-heading__hi {
+  color: deepskyblue; }
+
+.cover-heading__name {
+  margin-top: 0px; }
+
+.lead__more {
+  margin-top: 25px;
+  margin-bottom: 70px;
+  color: deepskyblue;
+  font-size: 20px; }
+
+.cover-container {
+  margin-right: auto;
+  margin-left: auto; }
+
+/* Padding for spacing */
+.inner {
+  padding: 30px; }
+
+/*
+ * Header
+ */
+.masthead-nav > li {
+  display: inline-block; }
+
+.masthead-nav > li + li {
+  margin-left: 20px; }
+
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  /* IE8 proofing */
+  color: rgba(255, 255, 255, 0.75);
+  border-bottom: 2px solid transparent; }
+
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(255, 255, 255, 0.25); }
+
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff; }
+
+/*
+ * Cover
+ */
+.cover {
+  padding: 0 20px; }
+
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold; }
+
+/*
+ * Footer
+ */
+.mastfoot {
+  color: #999;
+  color: rgba(255, 255, 255, 0.5); }
+
+button {
+  font-family: 400 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  color: white;
+  border: solid 1px currentColor;
+  padding: 1em;
+  margin: 1.5em 1em;
+  font-weight: 500;
+  outline: 0; }
+
+.pri {
+  color: white;
+  background-color: #0099cc;
+  border: solid 1px transparent;
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1), -webkit-filter 0.1s cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0.2s;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  -webkit-filter: grayscale(12%);
+  outline: 0;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  font-weight: bold; }
+  .pri:active {
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+    transition-delay: 0s;
+    -webkit-filter: grayscale(0%); }
+  .pri:focus {
+    outline: 0; }
+
+/*
+ * Affix and center
+ */
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0; }
+
+  .mastfoot {
+    position: fixed;
+    bottom: 0; }
+
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle; }
+
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%;
+    /* Must be percentage or pixels for horizontal alignment */ } }
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 700px; } }
+
+/*# sourceMappingURL=main.css.map */
