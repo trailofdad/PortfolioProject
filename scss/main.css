@@ -198,6 +198,9 @@ li span {
   display: inline;
   padding: 10px; }
 
+.contactListItem {
+  list-style: none; }
+
 /*
  * Affix and center
  */
