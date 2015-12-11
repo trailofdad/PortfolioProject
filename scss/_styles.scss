@@ -6,11 +6,9 @@ a:hover {
   outline:0;
 }
 
-
 /*
  * Base structure
  */
-
 
 /*html,*/
 
@@ -20,7 +18,6 @@ html,body {
   margin:0;
   padding:0;
 }
-
 
 body {
   height: 100%;
@@ -32,6 +29,7 @@ body {
   font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   background-image: url($background-image);
 }
+
 body {
   color: #fff;
   text-align: center;
@@ -60,7 +58,6 @@ body {
 
 .cover-heading__hi {
   color: $type1-color;
-
 }
 
 .cover-heading__name {
@@ -85,7 +82,6 @@ body {
   padding: 30px;
 }
 
-
 /*
  * Header
  */
@@ -93,24 +89,28 @@ body {
 .masthead-nav > li {
   display: inline-block;
 }
+
 .masthead-nav > li + li {
   margin-left: 20px;
 }
+
 .masthead-nav > li > a {
   padding-right: 0;
   padding-left: 0;
   font-size: 16px;
   font-weight: bold;
-  color: #fff; /* IE8 proofing */
+  color: #fff;
   color: rgba(255,255,255,.75);
   border-bottom: 2px solid transparent;
 }
+
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
   background-color: transparent;
   border-bottom-color: #a9a9a9;
   border-bottom-color: rgba(255,255,255,.25);
 }
+
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
@@ -125,11 +125,11 @@ body {
 .cover {
   padding: 0 20px;
 }
+
 .cover .btn-lg {
   padding: 10px 20px;
   font-weight: bold;
 }
-
 
 /*
  * Footer
@@ -139,8 +139,6 @@ body {
   color: #999;
   color: rgba(255,255,255,.5);
 }
-
-
 
 button{
   font-family: 400 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -152,8 +150,6 @@ button{
   margin: 1.5em 1em;
   font-weight: 500;
   outline: 0;
-
-
 }
 
 //button styling
@@ -167,7 +163,6 @@ button{
   outline:0;
   @include border-radius;
   font-weight: bold;
-
 }
 
 //sprites styling
@@ -178,11 +173,9 @@ button{
 }
 
 .sprites {
-
   a {
     height:inherit;
   }
-
 }
 
 .sprites {
