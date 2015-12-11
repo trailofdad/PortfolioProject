@@ -58,6 +58,7 @@ body {
 
 .cover-heading__hi {
   color: $type1-color;
+  margin-top:0px;
 }
 
 .cover-heading__name {
@@ -116,19 +117,6 @@ body {
 .masthead-nav > .active > a:focus {
   color: #fff;
   border-bottom-color: #fff;
-}
-
-/*
- * Cover
- */
-
-.cover {
-  padding: 0 20px;
-}
-
-.cover .btn-lg {
-  padding: 10px 20px;
-  font-weight: bold;
 }
 
 /*
@@ -201,4 +189,14 @@ li {
   background-position: -672px 0;
   &:hover {background-position: -672px -84px;}
   &:active {background-position: -672px -168px;}
+}
+
+// code page logo styling
+
+.codeList {
+  list-style: none;
+}
+
+.codeListItem{
+  padding-bottom: 20px;
 }

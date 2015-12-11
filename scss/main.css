@@ -66,7 +66,8 @@ body {
   vertical-align: top; }
 
 .cover-heading__hi {
-  color: deepskyblue; }
+  color: deepskyblue;
+  margin-top: 0px; }
 
 .cover-heading__name {
   margin-top: 0px; }
@@ -114,16 +115,6 @@ body {
 .masthead-nav > .active > a:focus {
   color: #fff;
   border-bottom-color: #fff; }
-
-/*
- * Cover
- */
-.cover {
-  padding: 0 20px; }
-
-.cover .btn-lg {
-  padding: 10px 20px;
-  font-weight: bold; }
 
 /*
  * Footer
@@ -193,6 +184,12 @@ li span {
     background-position: -672px -84px; }
   #Twitter:active {
     background-position: -672px -168px; }
+
+.codeList {
+  list-style: none; }
+
+.codeListItem {
+  padding-bottom: 20px; }
 
 /*
  * Affix and center
