@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="A web developer in Halifax Nova Scotia">
     <meta name="author" content="Christian Hapgood">
-    <meta name="keywords" content="christian hapgood, christianhapgood, christianhapgood.ca, web, web designer, programmer, developer, ui, ux, ux developer, ui developer, canada, nova scotia,
-    halifax, saint john, fredericton, new brunswick, SASS, web development, javascript, jquery, angularjs, nodejs, web design">
+    <meta name="keywords" content="christian hapgood, christianhapgood, christianhapgood.ca, web, web designer, programmer, developer,   ui, ux, ux developer, ui developer, canada, nova scotia,
+    halifax, saint john, fredericton, new brunswick, bootstrap, photography, photos, picture, pictures, web design">
 
     <title>Christian Hapgood</title>
 
@@ -31,10 +31,8 @@
 
                     <h3 class="masthead-brand__menu"><a href="#" id="menu"><i class="fa fa-bars" style="padding-right: 5px"></i>Menu</a></h3>
 
-
                     <!--   NAV MENU  -->
                     <div class="nav-wrapper">
-
                         <nav id="dropdown" class="respond">
                             <div id="close" class="menu">
                                 <a href="#" class="icon close"></a>
@@ -44,9 +42,9 @@
                                 <ul class="nav masthead-nav">
                                     <li><a href="index.html">Home</a></li>
                                     <li><a href="about.html">About</a></li>
-                                    <li><a href="http://github.com/trailofdad">Code</a></li>
+                                    <li class="active"><a href="code.html">Code</a></li>
                                     <li><a href="http://flickr.com/photos/christianhapgood">Photography</a></li>
-                                    <li class="active"><a href="contact.html">Contact</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
                                 </ul>
                             </nav>
                         </nav>
@@ -55,7 +53,18 @@
             </div>
 
             <div class="inner cover">
-                <h1>Contact</h1>
+                <h1 class="cover-heading__hi">See my work on:</h1>
+                <ul class="codeList">
+                    <li class="codeListItem">
+                        <a href="http://github.com/trailofdad"><img src="img/GitHub-Logo2.png" alt="Github"></a>
+                    </li>
+                    <li class="codeListItem">
+                        <a href="http://codepen.com/trailofdad"><img src="img/codepen-logo2.png" alt="Codepen"></a>
+                    </li>
+                    <li class="codeListItem">
+                        <a href="#"><img src="img/Stack-Overflow-Logo2.png" alt="Stack Overflow"></a>
+                    </li>
+                </ul>
             </div>
 
             <div class="mastfoot">
@@ -71,10 +80,13 @@
                 </div>
             </div>
 
+            <!--end cover-container-->
         </div>
 
+        <!--end inner-->
     </div>
 
+    <!--end wrapper-->
 </div>
 
 <script src="js/jquery-1.11.3.min.js"></script>
