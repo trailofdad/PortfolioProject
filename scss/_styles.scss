@@ -215,11 +215,12 @@ li {
 
 .skillsList {
   vertical-align: middle;
+  list-style: none;
 }
 
 .skillsListItem{
-  display: inline;
   padding:10px;
+  display: inline;
 }
 
 .contactList{

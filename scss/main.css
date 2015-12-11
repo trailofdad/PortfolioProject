@@ -192,11 +192,12 @@ li span {
   padding-bottom: 20px; }
 
 .skillsList {
-  vertical-align: middle; }
+  vertical-align: middle;
+  list-style: none; }
 
 .skillsListItem {
-  display: inline;
-  padding: 10px; }
+  padding: 10px;
+  display: inline; }
 
 .contactListItem {
   list-style: none; }
