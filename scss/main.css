@@ -40,7 +40,8 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-color: dimgrey;
-  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-image: url("../img/kamouraska3.jpg"); }
 
 body {
   color: #fff;
