@@ -163,6 +163,37 @@ button {
   .pri:focus {
     outline: 0; }
 
+#spritesList {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+.sprites a {
+  height: inherit; }
+
+.sprites {
+  width: 84px;
+  height: 84px;
+  display: inline-block;
+  background: url("../img/mini-social-icons.png") top left no-repeat; }
+
+li span {
+  margin-left: -9999px; }
+
+#LinkedIn {
+  background-position: -336px 0; }
+  #LinkedIn:hover {
+    background-position: -336px -84px; }
+  #LinkedIn:active {
+    background-position: -336px -168px; }
+
+#Twitter {
+  background-position: -672px 0; }
+  #Twitter:hover {
+    background-position: -672px -84px; }
+  #Twitter:active {
+    background-position: -672px -168px; }
+
 /*
  * Affix and center
  */
