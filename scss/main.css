@@ -191,6 +191,13 @@ li span {
 .codeListItem {
   padding-bottom: 20px; }
 
+.skillsList {
+  vertical-align: middle; }
+
+.skillsListItem {
+  display: inline;
+  padding: 10px; }
+
 /*
  * Affix and center
  */
