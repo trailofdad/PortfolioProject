@@ -38,3 +38,24 @@
     width: 700px;
   }
 }
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 900px;
+    .masthead {
+      position: relative;
+      top: 0;
+      margin-bottom: 60px;
+    }
+
+    .mastfoot {
+      bottom: 0;
+      position: relative;
+      margin-top: 60px;
+    }
+  }
+}
+

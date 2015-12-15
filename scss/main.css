@@ -157,7 +157,8 @@ button {
 #spritesList {
   list-style: none;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  clear: both; }
 
 .sprites a {
   height: inherit; }
@@ -230,5 +231,23 @@ li span {
   .mastfoot,
   .cover-container {
     width: 700px; } }
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 900px; }
+    .masthead .masthead,
+    .mastfoot .masthead,
+    .cover-container .masthead {
+      position: relative;
+      top: 0;
+      margin-bottom: 60px; }
+    .masthead .mastfoot,
+    .mastfoot .mastfoot,
+    .cover-container .mastfoot {
+      bottom: 0;
+      position: relative;
+      margin-top: 60px; } }
 
 /*# sourceMappingURL=main.css.map */
