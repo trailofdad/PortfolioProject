@@ -1,3 +1,3 @@
 # PortfolioProject
 
-![My image](trailofdad.github.com/portfolioproject/screenshot2.jpg)
+![My image](PortfolioProject/Screenshot2.JPG)
